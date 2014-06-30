@@ -1,3 +1,4 @@
+
 .comment {
   $comment-gutter: 1.4em;
   $comment-image-padding: .7em;
@@ -44,6 +45,7 @@
     h1 {
       font-size: 1em;
       margin-bottom: .5em;
+      text-transform: capitalize;
     }
 
     p {

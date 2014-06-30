@@ -1,7 +1,8 @@
 <div class="hero">
 	<div class="hero-inner">
-    <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
-" alt=""></a>
+    <a href="" class="hero-logo">
+	   <img src="images/icon/logo.png" alt="logo" width="74" height="79" />
+    </a>
 		<div class="hero-copy">
 			<h1>For the love of code.</h1>
 			<p>This is why i do what I do.</p>	

@@ -1,6 +1,8 @@
     <header class="navigation">
         <div class="menu-wrapper">
-            <a href="javascript:void(0)" class="logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt=""></a>
+            <a href="javascript:void(0)" class="logo">
+	            <img src="images/icon/logo.png" alt="logo" width="74" height="79" />
+            </a>
 
             <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
 

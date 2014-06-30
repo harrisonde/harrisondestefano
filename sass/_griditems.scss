@@ -89,7 +89,7 @@
 // custom anamations
 .grid-items-lines a:hover{
 	position: relative;
-	img, h1, p{
+	img, h1, p, [class*="icon-"]{
 		position: absolute;
 		// http://css-tricks.com/almanac/properties/t/transition/
 		// transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
@@ -110,7 +110,8 @@
   		//transition-duration: 0.5s;
 
 	}
-	img{
+	
+	[class*="icon-"]{
 		top: -20%;
 	}
 	h1{
