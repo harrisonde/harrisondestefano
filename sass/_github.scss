@@ -8,8 +8,8 @@
   $comment-image-vert-alignment: top;
 
   display: table;
-  width: 100%;
-  margin-bottom: $base-line-height;
+  width: 80%;
+  margin: $base-line-height 10%  $base-line-height 10%;
   padding-bottom: 1em;
   border-bottom: 1px solid transparentize($comment-color, .9);
 

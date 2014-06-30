@@ -1,0 +1,11 @@
+.block{
+	background: pink;
+	display: table;
+	height: 860px;
+	width: 100%;
+	.block-inner{
+		display: table-cell;
+		padding: 0 15% 0 15%;
+		vertical-align: middle;
+	}
+}

@@ -2,12 +2,13 @@
 	$hero-background: desaturate(darken($base-accent-color, 20), 30);	
 	$hero-color: white;
 
-	background: url(/images/beach-transparent.png);
+	background: url(/images/hero/beach-transparent.png);
 	background-color: $hero-background;
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
 	padding-bottom: 4em;
+	padding-top: 60px;
 
 	.hero-logo img {
 		height: 3em;
@@ -52,4 +53,6 @@
 			}
 		}
 	}
+	//custom styles
+	height: 560px;
 }
