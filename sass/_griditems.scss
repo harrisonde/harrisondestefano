@@ -87,39 +87,29 @@
   }
 }
 // custom anamations
-.grid-items-lines a:hover{
-	position: relative;
-	img, h1, p, [class*="icon-"]{
-		position: absolute;
-		// http://css-tricks.com/almanac/properties/t/transition/
-		// transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
-		// http://css-tricks.com/almanac/properties/t/transition-property/
-		  -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-	
-		//-webkit-transition-property: top;
-        //-webkit-transition-duration: 0.5s;
-  		//-moz-transition-property: top;
-  		//-moz-transition-duration: 0.5s; 
-  		//-o-transition-property:	top;
-  		//-o-transition-duration:	0.5s;      
-  		//transition-property: top;
-  		//transition-duration: 0.5s;
+.grid-items-lines {
 
-	}
-	
-	[class*="icon-"]{
-		top: -20%;
-	}
-	h1{
-		top: -15%;
-	} 
-	p{
-		top: 9%;
-	}
+		a.peek:hover{
+			position: relative;
+			img, h1, p, [class*="icon-"]{
+				position: absolute;
+			}
+		
+			[class*="icon-"]{
+				top: -20%;
+			}
+			h1{
+				top: -15%;
+			} 
+			p{
+				top: 9%;
+			}
+		}
+		a.long:hover{
+			h1{
+				top: -25%;
+			} 
+		}
 	
 }
 

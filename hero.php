@@ -5,7 +5,7 @@
     </a>
 		<div class="hero-copy">
 			<h1>For the love of code.</h1>
-			<p>This is why i do what I do.</p>	
+			<p>This is why I am here.</p>	
 		</div>
     <button onclick="window.location.href = 'https://www.linkedin.com/in/harrisondestefano'">Share the love with me.</button>
 	</div>

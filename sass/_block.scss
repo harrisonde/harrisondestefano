@@ -1,11 +1,15 @@
 .block{
-	background: pink;
 	display: table;
-	height: 860px;
 	width: 100%;
 	.block-inner{
-		display: table-cell;
+		display: table;
 		padding: 0 15% 0 15%;
 		vertical-align: middle;
+	}	
+	blockquote{
+		font-size: 2.1em;
+		@media screen and (max-width: 480px) {
+			font-size: 1.1em;
+		}
 	}
 }

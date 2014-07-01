@@ -12,6 +12,7 @@ HARRISONDESTEFANO = {
 	// let's get this party started!
 	init:function(){
 		HARRISONDESTEFANO.navigation.interaction();	
+		HARRISONDESTEFANO.navigation.offcanvas();
 	},
 	// method uses github api to pull information from user defined repos at runtime. The method expects an array of repos
 	github:{
@@ -27,9 +28,10 @@ HARRISONDESTEFANO = {
 				 +'<p class="comment-detail">Created @ '+json.created_at+' Pushed @ '+json.pushed_at+'</p>'
 				 +'<p class="comment-detail">Clone</p>'
 				 +'<label class="label-switch">'
-				 	+'<input type="checkbox" data-clone-url="'+json.clone_url+'"/>'
+				 	+'<input type="checkbox" onchange="if($(this).parent().siblings(\'input\').attr(\'disabled\')===\'disabled\'){ $(this).parent().siblings(\'input\').attr(\'disabled\', false);}else{$(this).parent().siblings(\'input\').attr(\'disabled\', true);};"/>'
 				 +'<div class="checkbox"></div>'
 				+'</label>'
+				+'<input disabled="disabled" type="search" value="'+json.clone_url+'"/>'
 			  +'</div>'
 			+'</div>';
 			// add to DOM
@@ -82,7 +84,6 @@ HARRISONDESTEFANO = {
 		interaction: function(){
 			$('.nav a').on('click', function(){
 				var item = $(this);
-				console.log(item.parent().parent().parent().hasClass('footer-links'))
 				// get the position of the current element and relate said position to the overall DOM structure. 
 				if( item.parent().parent().parent().hasClass('footer-links') === true){
 					itemIndx = item.parent().index() + 2;
@@ -90,10 +91,23 @@ HARRISONDESTEFANO = {
 				else{
 					itemIndx = item.parent().index() + 3;
 				}
-				console.log(item.parent().parent().parent())
 				// get that item and pull it into view
 				HARRISONDESTEFANO.navigation.skipTo( $('#pageWrapper').children(':nth-child('+itemIndx+')'));
 			});
+		},
+		offcanvas: function(){
+			var menu = $('#navigation-menu');
+			  var menuToggle = $('#js-mobile-menu');
+			  $(menuToggle).on('click', function(e) {
+			    e.preventDefault();
+			    menu.slideToggle(function(){
+			      if(menu.is(':hidden')) {
+			        menu.removeAttr('style');
+			      }
+			    });
+			  });
+			
+			
 		},
 		// provide an object and bring said object into view via 
 		skipTo: function(someElement){

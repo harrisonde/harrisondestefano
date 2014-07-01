@@ -10,17 +10,17 @@
 		  <li><a href="javascript:void(0)">Contribution</a></li>
 		</ul>
 		<ul>
-		  <li><h3>Follow</h3></li>
+		  <li><h3>Follow me</h3></li>
 		  <li><a href="https://www.facebook.com/harrison.destefano">Facebook</a></li>
 		  <li><a href="https://twitter.com/whddesign">Twitter</a></li>
 		  <li><a href="https://vimeo.com/user25972361">Vimeo</a></li>
 		</ul>
 		<ul>
 		  <li><h3>Recommended</h3></li>
-		  <li><a href="http:">Coda2</a></li>
-		  <li><a href="http://github.com/">Github</a></li>
-		  <li><a href="http://gitlab.com/">Gitlab</a></li>
-		  <li><a href="">Owncloud</a></li>
+		  <li><a href="https://panic.com/coda/">Coda2</a></li>
+		  <li><a href="https://github.com/">Github</a></li>
+		  <li><a href="https://about.gitlab.com/">GitLab</a></li>
+		  <li><a href="https://owncloud.org/">Owncloud</a></li>
 		</ul>
 		</div>
 		
