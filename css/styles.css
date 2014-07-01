@@ -389,7 +389,7 @@ cite {
     content: '\2014 \00A0'; }
 
 .icon-git {
-  background-position: -149 -6;
+  background-position: -149px -6px;
   background-repeat: no-repeat;
   background-image: url(../images/icon/symbols-sprite.png);
   height: 42px;
@@ -397,7 +397,7 @@ cite {
   width: 64px; }
 
 .icon-question {
-  background-position: -162px -51;
+  background-position: -162px -51px;
   background-repeat: no-repeat;
   background-image: url(../images/icon/symbols-sprite.png);
   height: 58px;
@@ -515,10 +515,10 @@ cite {
     background-color: #ccc;
     content: " ";
     width: 44%;
-    height: 1;
+    height: 1px;
     margin: auto;
     position: relative;
-    top: -19px;
+    top: -26px;
     z-index: 0;
     display: block;
     left: -26%; }
