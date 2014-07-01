@@ -24,7 +24,7 @@
 
                     <li class="nav-link"><a href="javascript:void(0)">Humor</a></li>
 
-                    <li class="nav-link"><a href="javascript:void(0)">Git Projects</a></li>
+                    <li class="nav-link"><a href="javascript:void(0)">Github Repositories</a></li>
 
                 </ul>
             </div>

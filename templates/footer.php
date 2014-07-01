@@ -17,9 +17,9 @@
 		<div class="footer-links">
 		<ul class="nav">
 		  <li><h3>Content</h3></li>
-		  <li><a href="javascript:void(0)">Familiar</a></li>
-		  <li><a href="javascript:void(0)">Gibberish</a></li>
-		  <li><a href="javascript:void(0)">Contribution</a></li>
+		  <li><a href="javascript:void(0)">Questions</a></li>
+		  <li><a href="javascript:void(0)">Humor</a></li>
+		  <li><a href="javascript:void(0)">Github Repositories</a></li>
 		</ul>
 		<ul>
 		  <li><h3>Follow me</h3></li>
