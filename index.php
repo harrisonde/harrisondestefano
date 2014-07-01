@@ -16,6 +16,7 @@
 	    <title>Harrison DeStefano</title>
 		<link href="css/normalize.3.0.1.css" media="screen" rel="stylesheet" type="text/css">
 		<link href="css/styles.css" media="screen" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 		<script src="js/vendor/jQuery-10.1.2.js" type="text/javascript"></script>
 		<script src="js/client.js" type="text/javascript"></script>
 	</head>
