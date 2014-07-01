@@ -20,11 +20,11 @@
 
             <div class="nav">
                 <ul id="navigation-menu">
-                    <li class="nav-link"><a href="javascript:void(0)">Familiar</a></li>
+                    <li class="nav-link"><a href="javascript:void(0)">Questions</a></li>
 
-                    <li class="nav-link"><a href="javascript:void(0)">Gibberish</a></li>
+                    <li class="nav-link"><a href="javascript:void(0)">Humor</a></li>
 
-                    <li class="nav-link"><a href="javascript:void(0)">Contribution</a></li>
+                    <li class="nav-link"><a href="javascript:void(0)">Git Projects</a></li>
 
                 </ul>
             </div>
